@@ -1,0 +1,52 @@
+{
+  "resource": "/{proxy+}",
+  "path": "/index",
+  "httpMethod": "GET",
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept-Language": "ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-Country": "KR",
+    "If-Modified-Since": "Wed, 01 Jan 2098 00:00:00 GMT",
+    "If-None-Match": "W/\"147-3ac7d618000\"",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "queryStringParameters": null,
+  "pathParameters": {
+    "proxy": "index"
+  },
+  "stageVariables": {
+    "lambdaAlias": "DEV",
+    "apis_host":"",
+    "static_host":"/static"
+  },
+  "requestContext": {
+    "path": "/stage/index",
+    "stage": "stage",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "apiKey": "",
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36",
+      "user": null
+    },
+    "resourcePath": "/{proxy+}",
+    "httpMethod": "GET"
+  },
+  "body": null,
+  "isBase64Encoded": false,
+  "functionVersion": "#LATEST"
+}
