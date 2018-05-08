@@ -1,0 +1,9 @@
+{
+	"name": "express-react",
+	"description": "serverless express for reactssr",
+	"nameTemplate":"express-{{.Function.Name}}",
+	"memory": 256,
+	"role": "",
+	"runtime": "nodejs8.10"
+}
+

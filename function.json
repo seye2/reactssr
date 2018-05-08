@@ -1,0 +1,11 @@
+{
+    "description":"express for reactssr",
+    "memory": 512,
+    "timeout": 20,
+    "handler":"index.handler",
+    "environment": {
+        "NODE_ENV":"production",
+        "NODE_STATUS":"deploy"
+    }
+}
+

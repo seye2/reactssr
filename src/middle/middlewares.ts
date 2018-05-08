@@ -1,21 +1,5 @@
-import * as raygun from 'raygun';
-// import rds from '../lib/rds';
-import ZBCrypt from '../lib/cryptor';
 import * as mockApiGatewayEvent from '../../api-gateway-event.json';
 import {Middleware, ExpressMiddlewareInterface, ExpressErrorMiddlewareInterface} from "routing-controllers";
-
-// 로그인 쿠키 있으면 디크립트
-@Middleware({ type: "before" })
-export class DecryptMiddleware implements ExpressMiddlewareInterface {
-	use(request: any, response: any, next: (err: any) => any): void {
-		if(request.cookies._zbuser) {
-			let zbCrypt = new ZBCrypt();
-			let decrypted = zbCrypt.decrypt(request.cookies._zbuser);
-			request.loginInfo = decrypted == null ? null : JSON.parse(decrypted);
-		}
-		next(null);
-	}
-}
 
 // lambda에서 apigateway 실행 환경에 따른 값 설정.
 @Middleware({ type: "before" })
@@ -61,16 +45,7 @@ export class CustomErrorHandler implements ExpressErrorMiddlewareInterface {
 			next(null);
 		} else {
 			console.log(error);
-	        // let raygunClient = new raygun.Client().init({apiKey:'SRDktTa2It75FLmhsgZV9Q=='});
-	        //
-	        // // send error to raygun
-	        // raygunClient.send(error, {
-				// apiGatewayEvent: request.apiGatewayEvent
-	        // }, function () {
-	        //
-				// response.status(500).send("Internal Server Error.");
-				// next(null);
-	        // });
+
 
 		}
     }

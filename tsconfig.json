@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		/* Basic Options */
+		"target": "es5",                          /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', or 'ESNEXT'. */
+		"module": "esnext",                     /* Specify module code generation: 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+		"outDir": "./dist",                        /* Redirect output structure to the directory. */
+		"strict": false,                            /* Enable all strict type-checking options. */
+		"noImplicitAny": false,
+		"moduleResolution": "node",
+		"sourceMap": false,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"downlevelIteration": true,
+		"allowJs": true,
+		"jsx": "react",
+		"lib": [
+			"es5",
+			"scripthost",
+			"es2015",
+			"es2016",
+			"dom",
+			"es2017.object",
+			"dom.iterable"
+		]
+	},
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules/*"
+	],
+	"files": [
+		"typings.d.ts"
+	]
+}
