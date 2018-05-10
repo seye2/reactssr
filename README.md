@@ -67,12 +67,12 @@ react-router4.2.0, routing-controllers0.7.7
 ## Available Script
 ### `npm dev`
 
-<img src="http://thumbnail.egloos.net/600x0/http://pds27.egloos.com/pds/201805/10/38/e0015438_5af409534cf10.png" width="800" height="600">
+<img src="http://thumbnail.egloos.net/800x600/http://pds27.egloos.com/pds/201805/10/38/e0015438_5af409534cf10.png" width="800" height="600">
 ### `npm prod-test`
 
-<img src="http://thumbnail.egloos.net/600x0/http://pds26.egloos.com/pds/201805/10/38/e0015438_5af4095f448c3.png" width="800" height="600">
+<img src="http://thumbnail.egloos.net/800x600/http://pds26.egloos.com/pds/201805/10/38/e0015438_5af4095f448c3.png" width="800" height="600">
 ### `npm prod`
 
-<img src="http://thumbnail.egloos.net/600x0/http://pds27.egloos.com/pds/201805/10/38/e0015438_5af40964287a3.png" width="800" height="600">
+<img src="http://thumbnail.egloos.net/800x600/http://pds27.egloos.com/pds/201805/10/38/e0015438_5af40964287a3.png" width="800" height="600">
 
 
