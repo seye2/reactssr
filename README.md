@@ -63,7 +63,8 @@ react-router4.2.0, routing-controllers0.7.7
         ├── tsconfig.json               # set typescript environment
         └── typings.d.ts                # allow all component, js to use global variable
 
-##Available Script
+
+## Available Script
 ### `npm dev`
 ![Jest watch mode](http://thumbnail.egloos.net/600x0/http://pds27.egloos.com/pds/201805/10/38/e0015438_5af409534cf10.png)
 ### `npm prod-test`
