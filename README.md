@@ -4,7 +4,6 @@
 
 - [Skill Set](#skill-set)
 - [Folder Structure](#folder-structure)
-- [Folder Structure](#folder-structure)
 - [Available Script](#available-script)
     - [npm dev](#npm-dev)
     - [npm prod-test](#npm-prod-test)
