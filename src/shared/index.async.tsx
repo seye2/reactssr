@@ -1,36 +1,17 @@
 import * as React from "react";
+import Loadable from 'react-loadable';
 
+const Loading = () => <div>Loading...</div>;
 
-function asyncComponent(getComponent) {
-    return class AsyncComponent extends React.Component<any, any> {
-        static Component = null;
+const Home = Loadable({
+    loader: () => import('../components/home/Main'),
+    loading: Loading,
+});
 
-        constructor(props) {
-            super(props);
-
-            this.state = { Component: AsyncComponent.Component };
-        }
-
-        componentWillMount() {
-            if (!this.state.Component) {
-                getComponent().then(({default: Component}) => {
-                    AsyncComponent.Component = Component;
-                    this.setState({ Component })
-                })
-            }
-        }
-        render() {
-            const { Component } = this.state;
-            if (Component) {
-                return <Component {...this.props} />
-            }
-            return null
-        }
-    }
-}
-
-const Home = asyncComponent(() => import('../components/home/Main'));
-const My = asyncComponent(() => import('../components/my/my'));
+const My = Loadable({
+    loader: () => import('../components/my/my'),
+    loading: Loading,
+});
 
 export {
     Home,

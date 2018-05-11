@@ -82,6 +82,7 @@
     "postcss-mixins": "^6.2.0",
     "postcss-nested": "^3.0.0",
     "react-hot-loader": "^4.0.0",
+    "react-loadable": "^5.4.0",
     "react-router": "^4.2.0",
     "react-router-config": "^1.0.0-beta.4",
     "react-router-dom": "^4.2.2",
