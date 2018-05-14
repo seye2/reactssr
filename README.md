@@ -10,17 +10,17 @@
     - [npm prod](#npm-prod)
 
 ## Skill Set
-[nodejs8.10](https://nodejs.org/ko/),
-[yarn1.6.0](https://yarnpkg.com/en/docs/install#mac-stable),
-[apex0.15.0](http://apex.run/),
-[webpack4.6.0](https://webpack.js.org/guides/getting-started/),
-[react16.2.0](https://reactjs.org/docs/try-react.html),
-[typescript2.6.1](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html),
-[express4.16.2](http://expressjs.com/ko/starter/installing.html),
-[aws-serverless-express3.1.3](https://github.com/awslabs/aws-serverless-express),
-[postcss6.0.21](https://github.com/postcss/postcss),
-[react-router4.2.0](https://reacttraining.com/react-router/web/guides/philosophy),
-[routing-controllers0.7.7](https://github.com/typestack/routing-controllers)
+- [nodejs8.10](https://nodejs.org/ko/),
+- [yarn1.6.0](https://yarnpkg.com/en/docs/install#mac-stable),
+- [apex0.15.0](http://apex.run/),
+- [webpack4.6.0](https://webpack.js.org/guides/getting-started/),
+- [react16.2.0](https://reactjs.org/docs/try-react.html),
+- [typescript2.6.1](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html),
+- [express4.16.2](http://expressjs.com/ko/starter/installing.html),
+- [aws-serverless-express3.1.3](https://github.com/awslabs/aws-serverless-express),
+- [postcss6.0.21](https://github.com/postcss/postcss),
+- [react-router4.2.0](https://reacttraining.com/react-router/web/guides/philosophy),
+- [routing-controllers0.7.7](https://github.com/typestack/routing-controllers)
 
 ## Folder Structure
     reactssr
