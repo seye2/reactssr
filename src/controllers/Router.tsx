@@ -50,3 +50,5 @@ export default class RouterController {
 		return Template.render(body, helmet, info.path, info.component, vOptions, initialData);
 	}
 }
+
+
